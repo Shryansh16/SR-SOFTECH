@@ -1,0 +1,13 @@
+@media screen  and (max-width:780px){
+    
+    .wrapper{
+        width: 90%;
+        flex-wrap: wrap;
+        gap:30px ;
+    }
+    .time-box1{
+        width: calc(50% - 40px);
+        height: 30vmin;
+        font-size: 14px;
+    }
+}

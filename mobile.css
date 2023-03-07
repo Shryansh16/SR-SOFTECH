@@ -1,0 +1,21 @@
+@media screen and (max-width: 480px){
+    .wrapper{
+    
+        gap:15px ;
+    }
+    .time-box1{
+        width: 90%;
+        height:25vmin;
+        font-size: 8px;
+    }
+}
+
+:root {
+    --marquee-width:100vw;
+    --marquee-height:16vw;
+    --marquee-element:9;
+    --marquee-element-displayed:3;
+    }
+    .marquee::before, .marquee::after{
+        width: 5rem;
+    }
